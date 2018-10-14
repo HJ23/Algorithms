@@ -15,7 +15,7 @@ int main(int argv,char** argc){
 }
 
 int *insertionsort(int* array, int size){
-//use acctually size-1
+//use acctually size
     for(int x1=1;x1<size;x1++){
         for(int y=0;y<=x1;y++){
         
