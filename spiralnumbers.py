@@ -7,7 +7,7 @@ global px
 global py
 global prime
 prime=3
-primex=input("prime number >>>")
+primex=input("odd number >>>")
 primex=int(primex)
 px=int(int(primex)/2)
 py=int(int(primex)/2)
