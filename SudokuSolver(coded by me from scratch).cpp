@@ -163,30 +163,7 @@ int main(int argc,char** argv){
     cout<<double(clock()-start)/CLOCKS_PER_SEC;
       print(temp);
     
-    
-    
-    
-    
-    
-    
-    
-    /*
-    cout<<"\n";
-    vector<set<int>>::iterator r;
-    set<int>::iterator y;
-    for( r=data.begin();r!=data.end();r++){
-        for(y=r->begin();y!=r->end();y++){
-            cout<<*y;
-        }
-        cout<<"\n";
-    }
-    cout<<"\n";
-    cout<<"*****************************";
-    vector<pair<int,int>>::iterator sd;
-    for(sd=coordinates.begin();sd!=coordinates.end();sd++){
-        cout<<sd->first<<","<<sd->second;
-        cout<<"\n";
-    } */
+ 
       return 0;
     
 }
